@@ -1,0 +1,41 @@
+{
+  // 实验选项
+  "add_experimental_option": [
+    "excludeSwitches",
+    [
+      "enable-automation"
+    ]
+  ],
+  "add_argument": [
+    // 隐身模式
+    // "incognito",
+    // 自动打开开发者工具
+    // "auto-open-devtools-for-tabs",
+    // 最大窗口启动
+    "--start-maximized",
+    // 设置窗口大小启动
+    // "window-size=300,600",
+    // 设置左上角点坐标位置
+    // "'window-position=120,0",
+    // 禁用gpu渲染（规避部分bug）
+    "disable-gpu",
+    // 全屏启动
+    // "start-fullscreen",
+    // 全屏启动（不显示地址栏）
+    // "kiosk",
+    // 不激活前置窗口
+    // "no-startup-window",
+    // 模拟浏览器
+    "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
+    // 隐藏运行
+    // "--headless",
+    // 不加载图片资源，提高速度
+    // "blink-settings=imagesEnabled=false",
+    // 规避人机验证
+    "--no-sandbox",
+    // 设置语言
+    "--lang=zh-CN"
+    // 隐藏滚动条
+    // "--hide-scrollbars"
+  ]
+}

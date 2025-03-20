@@ -1,0 +1,6 @@
+import xmltodict
+
+with open("out.xml", 'r', encoding="utf-8") as rf:
+    xml_str = rf.read()
+data = xmltodict.parse(xml_str, encoding="utf-8")
+print(data)  # OrderedDict([('testsuites', OrderedDict([('@tests', '1'...

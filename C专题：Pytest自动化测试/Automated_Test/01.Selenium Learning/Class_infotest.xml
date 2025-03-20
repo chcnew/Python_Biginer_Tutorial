@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<class>
+	<student>
+		<name>LiYang</name>
+		<age>10</age>
+		<city>guizhou</city>
+	</student>
+	<student>
+		<name>WangWu</name>
+		<age>10</age>
+		<city>sichuan</city>
+	</student>
+	<student>
+		<name>ZhangSan</name>
+		<age>10</age>
+		<city>guizhou</city>
+	</student>
+
+	<teacher>
+		<name>Wanglaoshi</name>
+		<age>24</age>
+		<city>guizhou</city>
+	</teacher>
+	<teacher>
+		<name>Cenlaoshi</name>
+		<age>27</age>
+		<city>guizhou</city>
+	</teacher>
+
+	<account>
+		login username='student' password='123456'
+		login username='teacher' password='654321'
+	</account>
+</class>

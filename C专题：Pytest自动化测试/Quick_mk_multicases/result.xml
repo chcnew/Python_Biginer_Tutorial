@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="5" time="0.068" timestamp="2023-08-21T20:33:10.330133" hostname="DESKTOP-JGH5FM1"><testcase classname="taska.TestCases" name="test_muticases[000]" time="0.001"><failure message="AssertionError: assert '000' == 5">self = &lt;taska.TestCases object at 0x000001A11A62BF70&gt;, test_msg = '000'
+
+    @pytest.mark.parametrize("test_msg", lst)
+    def test_muticases(self, test_msg):
+        print(test_msg)
+&gt;       assert test_msg == 5
+E       AssertionError: assert '000' == 5
+
+self       = &lt;taska.TestCases object at 0x000001A11A62BF70&gt;
+test_msg   = '000'
+
+taska.py:16: AssertionError</failure></testcase><testcase classname="taska.TestCases" name="test_muticases[001]" time="0.001"><failure message="AssertionError: assert '001' == 5">self = &lt;taska.TestCases object at 0x000001A11A6462E0&gt;, test_msg = '001'
+
+    @pytest.mark.parametrize("test_msg", lst)
+    def test_muticases(self, test_msg):
+        print(test_msg)
+&gt;       assert test_msg == 5
+E       AssertionError: assert '001' == 5
+
+self       = &lt;taska.TestCases object at 0x000001A11A6462E0&gt;
+test_msg   = '001'
+
+taska.py:16: AssertionError</failure></testcase><testcase classname="taska.TestCases" name="test_muticases[002]" time="0.001"><failure message="AssertionError: assert '002' == 5">self = &lt;taska.TestCases object at 0x000001A11A646490&gt;, test_msg = '002'
+
+    @pytest.mark.parametrize("test_msg", lst)
+    def test_muticases(self, test_msg):
+        print(test_msg)
+&gt;       assert test_msg == 5
+E       AssertionError: assert '002' == 5
+
+self       = &lt;taska.TestCases object at 0x000001A11A646490&gt;
+test_msg   = '002'
+
+taska.py:16: AssertionError</failure></testcase><testcase classname="taska.TestCases" name="test_muticases[003]" time="0.001"><failure message="AssertionError: assert '003' == 5">self = &lt;taska.TestCases object at 0x000001A11A646550&gt;, test_msg = '003'
+
+    @pytest.mark.parametrize("test_msg", lst)
+    def test_muticases(self, test_msg):
+        print(test_msg)
+&gt;       assert test_msg == 5
+E       AssertionError: assert '003' == 5
+
+self       = &lt;taska.TestCases object at 0x000001A11A646550&gt;
+test_msg   = '003'
+
+taska.py:16: AssertionError</failure></testcase><testcase classname="taska.TestCases" name="test_muticases[004]" time="0.001"><failure message="AssertionError: assert '004' == 5">self = &lt;taska.TestCases object at 0x000001A11A6466D0&gt;, test_msg = '004'
+
+    @pytest.mark.parametrize("test_msg", lst)
+    def test_muticases(self, test_msg):
+        print(test_msg)
+&gt;       assert test_msg == 5
+E       AssertionError: assert '004' == 5
+
+self       = &lt;taska.TestCases object at 0x000001A11A6466D0&gt;
+test_msg   = '004'
+
+taska.py:16: AssertionError</failure></testcase></testsuite></testsuites>
